@@ -1,0 +1,34 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b61010;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#forecast-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.forecast-card {
+    border: 1px solid #110c0c;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    background-color: #702e2e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
